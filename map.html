@@ -121,12 +121,16 @@
         }) 
         console.log(arr);
       }else if(cliclType=='polygon'){
-        let over = overlays.map(item=>{
+        //多边形
+       /*  let over = overlays.map(item=>{
           return item.path.toString()
+        }) */
+        overlays[0].path.Ce.path.forEach(item=>{
+          console.log('('+item.lng+','+item.lat+')')
         })
-        console.log(over)
-        localStorage.setItem('json', over)     
+        // localStorage.setItem('json', over)     
       }else if(cliclType=='polyline'){
+        //折现
         overlays[0].path.Ce.path.forEach(item=>{
           console.log('('+item.lng+','+item.lat+')')
         })
