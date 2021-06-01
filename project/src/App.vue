@@ -6,10 +6,9 @@
     <transition name="slide-sace">
       <v-toast v-if="$store.state.toastShow"/>
     </transition>
-     <div class="g-maskbgs">
+     <!-- <div class="g-maskbgs">
       <v-map-yan></v-map-yan>
-      <!-- <img src="/static/bounced-img/mask.png" alt /> -->
-    </div>
+    </div> -->
   </div>
 </template>
 
@@ -165,9 +164,9 @@ export default {
 @import "assets/font/font_3.0/iconfont.css";
 @import "assets/font/font-industry/iconfont.css";
 @import "assets/css/swiper-3.4.2.min.css";
- @import 'assets/font/font-fa/font-awesome.min.css';
+@import 'assets/font/font-fa/font-awesome.min.css';
 
-.g-maskbgs {
+/* .g-maskbgs {
   // pointer-events: none;
   position: absolute;
   z-index: 0;
@@ -179,7 +178,7 @@ export default {
     width: 100%;
     height: 100%;
   }
-}
+} */
 .second-page {
         width: 100%;
     height: 100%;
@@ -249,6 +248,12 @@ body {
 @font-face {
   font-family: "AliHYAiHei";
   src: url("assets/font/qd-font/AliHYAiHei.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "PingFang SC";
+  src: url("assets/font/PingFangSC/苹方黑体-准-简.ttf");
   font-weight: normal;
   font-style: normal;
 }

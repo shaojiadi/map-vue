@@ -161,11 +161,25 @@ const screenElectricityCharList = () => axios.get(`lwElectric/screenElectricityC
 
 const downloadTemplate = () => axios.get(`lwElectric/downloadTemplate`, {});
 
+
+/**
+startTime	是	string	传入选择日期，注意格式转换为yyyy-MM-dd 字符串，如不需要扩展，则传入当日的yyyy-MM-dd
+ */
+const environmentNew = (params) => axios.get(`http://xhgj-view.zhihuipk.com/mortar/screen/environmentNew`, { params });
+
+/**
+size	是	int	天数
+ */
+const environmentSeven = (params) => axios.get(`http://xhgj-view.zhihuipk.com/mortar/screen/environmentSeven`, { params });
+
 export {
     areaDetail, adminDetail, areaSearch, companyListSearch, companyBaseInfoXW, companyTargetedCompanyInfo, companyInfoOld, gradeScoreByCompany, getCompanyRiskRecord, companyMatterRemind, companyWorkflowApplication, companyExtension, getBusinessChangeRecord, formInfo, companyInfo,
     carParkList, peoplePassRecord, electricityMonthOptionList, electricityTotal, importLanWanExcelTotal, importLanWanExcelElectric,
     findCarParkPasslist, screenElectricityList, screenElectricityCharList, downloadTemplate,
     entranceDownlist, passDataList,
     carPassAnalysis, monitoList,
-    monitorMediaUrlList
+    monitorMediaUrlList,
+
+
+    environmentNew,environmentSeven
 }

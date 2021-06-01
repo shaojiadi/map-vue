@@ -23,6 +23,20 @@ export default {
       number1:9.3,
       number2:9.3,
       number3:9.3,
+      imgList: [
+        {
+          imgUrl: "../../../static/lanwan/guanjian-1.jpg",
+        },
+        {
+          imgUrl: "../../../static/lanwan/video-img22.jpg",
+        },
+        {
+          imgUrl: "../../../static/lanwan/video-img33.jpg",
+        },
+        {
+          imgUrl: "../../../static/lanwan/video-img22.jpg",
+        },
+      ],
     };
   },
   mounted() {

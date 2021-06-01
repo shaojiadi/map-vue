@@ -248,7 +248,7 @@ export default {
       height: 0.24rem;
       @include bis("/static/bounced-img/top-center-bg.png");
       font-size: 0.16rem;
-      font-family: PingFangSC-Regular;
+      font-family: PingFang SC;
       font-weight: bold;
       color: rgba(122, 244, 253, 1);
       margin-bottom: 0.13rem;

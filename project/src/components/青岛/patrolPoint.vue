@@ -444,7 +444,7 @@ export default {
 
   p {
     font-size: 0.18rem;
-    font-family: PingFangSC-Regular;
+    font-family: PingFang SC;
     font-weight: bold;
     color: rgba(255, 255, 255, 1);
   }

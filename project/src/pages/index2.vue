@@ -891,7 +891,7 @@ this.getOrOpenUrl(localName,1)
       position: relative;
       z-index: 22;
       font-size: 0.2rem;
-      font-family: PingFangSC-Regular;
+      font-family: PingFang SC;
       font-weight: 400;
       color: rgba(255, 255, 255, 1);
       line-height: 1;
@@ -921,7 +921,7 @@ this.getOrOpenUrl(localName,1)
   .g-situations-tit {
     margin-top: 0.2rem;
     font-size: 0.16rem;
-    font-family: PingFangSC-Medium;
+    font-family: PingFang SC;
     font-weight: 500;
     color: rgba(255, 255, 255, 1);
     line-height: 1;
@@ -937,7 +937,7 @@ this.getOrOpenUrl(localName,1)
       padding: 0.25rem 0 0.4rem 0;
       .p-type-name {
         font-size: 0.14rem;
-        font-family: PingFangSC-Regular;
+        font-family: PingFang SC;
         font-weight: 400;
         color: rgba(255, 255, 255, 1);
         opacity: 0.8;
@@ -994,7 +994,7 @@ this.getOrOpenUrl(localName,1)
   p {
     margin-top: 0.2rem;
     font-size: 0.14rem;
-    font-family: PingFangSC-Regular;
+    font-family: PingFang SC;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.8);
     line-height: 1;
@@ -1012,7 +1012,7 @@ this.getOrOpenUrl(localName,1)
   p {
     margin-top: 0.2rem;
     font-size: 0.12rem;
-    font-family: PingFangSC-Regular;
+    font-family: PingFang SC;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.8);
     line-height: 1;
@@ -1180,7 +1180,7 @@ this.getOrOpenUrl(localName,1)
       height: 0.24rem;
       @include bis("/static/bounced-img/top-center-bg.png");
       font-size: 0.16rem;
-      font-family: PingFangSC-Regular;
+      font-family: PingFang SC;
       font-weight: bold;
       color: rgba(122, 244, 253, 1);
       margin-bottom: 0.13rem;

@@ -1844,13 +1844,13 @@ export default {
     line-height: 30px;
     /*background: #f6faff;*/
     font-size: 16px;
-    font-family: PingFangSC-Medium;
+    font-family: PingFang SC;
     font-weight: 600;
     color: rgba(67, 67, 67, 1);
 
     .refresh-time {
       font-size: 14px;
-      font-family: PingFangSC-Regular;
+      font-family: PingFang SC;
       font-weight: 400;
       color: rgba(102, 102, 102, 1);
     }
@@ -1861,7 +1861,7 @@ export default {
       padding: 0;
       text-align: center;
       font-size: 14px;
-      font-family: PingFangSC-Regular;
+      font-family: PingFang SC;
       font-weight: 400;
       color: rgba(37, 147, 252, 1);
       line-height: 30px;
@@ -1871,7 +1871,7 @@ export default {
 
       .el-icon-refresh {
         font-size: 18px;
-        font-family: PingFangSC-Regular;
+        font-family: PingFang SC;
         font-weight: 600;
         line-height: 30px;
         margin-right: 5px;
@@ -2033,7 +2033,7 @@ export default {
 
   .g-empty-content {
     font-size: 14px;
-    font-family: PingFangSC-Regular;
+    font-family: PingFang SC;
     font-weight: 400;
     color: rgba(153, 153, 153, 1);
 

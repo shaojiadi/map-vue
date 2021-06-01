@@ -164,7 +164,7 @@
     .g-model-tit{
       position: relative;
       font-size:.12rem;
-      font-family:PingFangSC-Medium;
+      font-family:PingFang SC;
       font-weight:500;
       color:rgba(255,255,255,1);
       padding-left: .06rem;
@@ -182,7 +182,7 @@
     }
     .g-model-cont{
       font-size:.12rem;
-      font-family:PingFangSC-Regular;
+      font-family:PingFang SC;
       font-weight:400;
       color:rgba(255,255,255,1);
       line-height:.18rem;

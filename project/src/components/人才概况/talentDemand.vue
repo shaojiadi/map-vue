@@ -192,7 +192,7 @@
     padding: .23rem .18rem .12rem .01rem;
     p{
       font-size:.14rem;
-      font-family:PingFangSC-Medium;
+      font-family:PingFang SC;
       font-weight:500;
       color:rgba(255,255,255,1);
       opacity:0.8;
@@ -301,7 +301,7 @@
       }
       p{
         font-size:.14rem;
-        font-family:PingFangSC-Regular;
+        font-family:PingFang SC;
         font-weight:400;
         color:rgba(255,255,255,1);
       }

@@ -38,6 +38,13 @@ $gray:rgb(102,102,102);
     transform: translate(-50%, -50%);
 }
 
+@mixin centerfix {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
 //定位上下居中
 @mixin ct {
 	position: absolute;

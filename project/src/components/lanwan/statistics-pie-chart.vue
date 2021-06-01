@@ -34,7 +34,7 @@ export default {
                 textAlign: 'center',
                 fill: '#7AF4FD', //文字的颜色
                 fontSize: 14,
-                fontFamily: "PingFangSC-Regular"
+                fontFamily: "PingFang SC"
             }
         }],
         series: [

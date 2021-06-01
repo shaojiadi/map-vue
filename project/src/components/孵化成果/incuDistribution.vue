@@ -74,7 +74,7 @@
     p{
       text-align: center;
       font-size:.12rem;
-      font-family:PingFangSC-Regular;
+      font-family:PingFang SC;
       font-weight:400;
       color:rgba(255,255,255,1);
       line-height:1;

@@ -79,6 +79,6 @@ export default {
     height: 2.78rem;
     @include bis('../../../static/lanwan/pipeline-bg.png');
     padding: .23rem .21rem;
-      
+    margin-top: .14rem;
   }
 </style>

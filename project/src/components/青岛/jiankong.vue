@@ -22,7 +22,7 @@
             <p class="head-title">重点监控点位-{{ item.local }}</p>
             <img
               src="/static/bounced-img/jk-close.png"
-              @click.stop="closeCamera"
+              @click="closeCamera"
               alt=""
             />
           </div>
@@ -331,6 +331,7 @@ export default {
       this.cameraId = "";
       this.popupInfo.left = 0;
       this.popupInfo.top = 0;
+      this.map.clearInfoWindow();
     },
     getImgUrl(id) {
       // cameraWarningUrl cameraActiveUrl cameraAutoUrl cameraUrl

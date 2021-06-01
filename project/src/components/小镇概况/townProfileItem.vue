@@ -43,7 +43,7 @@
       overflow: hidden;
       text-overflow: ellipsis;
       white-space: nowrap;
-      font-family: 'PingFangSC-Regular';
+      font-family: 'PingFang SC';
     }
 
     .m-content {
@@ -57,7 +57,7 @@
         margin-left: 0.03rem;
         font-size: 0.1rem;
         color: rgba(255, 255, 255, 1);
-        font-family: 'PingFangSC-Regular';
+        font-family: 'PingFang SC';
       }
     }
   }

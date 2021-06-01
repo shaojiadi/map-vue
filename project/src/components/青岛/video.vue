@@ -47,13 +47,15 @@ export default {
   },
   mounted() {
     this.initVideo();
+    console.log(this.player,98979)
   },
   components: {},
   computed: {},
   methods: {
     initVideo() {
       if (this.player) {
-        this.player.dispose();
+        console.log(this.player,98979)
+        // this.player.dispose();
       }
       this.player = videojs(this.id, {
         language: "zh-CN",
@@ -76,7 +78,7 @@ export default {
     },
   },
   beforeDestroy() {
-    this.player.dispose();
+    // this.player.dispose();
     this.player = "";
   },
   watch: {

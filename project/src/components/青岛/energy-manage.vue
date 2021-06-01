@@ -1682,7 +1682,7 @@ export default {
 
       &-item {
         font-size: 0.16rem;
-        font-family: PingFangSC-Regular;
+        font-family: PingFang SC;
         font-weight: bold;
         color: rgba(41, 83, 176, 1);
         padding: 0.11rem 0.06rem;
@@ -1837,7 +1837,7 @@ export default {
 
       &-item {
         font-size: 0.16rem;
-        font-family: PingFangSC-Regular;
+        font-family: PingFang SC;
         font-weight: bold;
         color: rgba(41, 83, 176, 1);
         padding: 0.11rem 0.06rem;

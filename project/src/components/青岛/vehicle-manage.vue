@@ -1072,7 +1072,7 @@ export default {
 
           &-item {
             font-size: 0.16rem;
-            font-family: PingFangSC-Regular;
+            font-family: PingFang SC;
             font-weight: bold;
             color: rgba(41, 83, 176, 1);
             padding: 0.11rem 0.06rem;
@@ -1111,7 +1111,7 @@ export default {
 
           &-title {
             font-size: 0.14rem;
-            font-family: PingFangSC-Regular;
+            font-family: PingFang SC;
             font-weight: bold;
             color: rgba(255, 255, 255, 0.4);
             margin-top: 0.05rem;
@@ -1221,7 +1221,7 @@ export default {
               no-repeat;
             background-size: 100% 100%;
             font-size: 0.2rem;
-            font-family: PingFangSC-Regular;
+            font-family: PingFang SC;
             font-weight: bold;
             color: rgba(238, 248, 255, 1);
             line-height: 0.42rem;
@@ -1231,7 +1231,7 @@ export default {
 
           > p {
             font-size: 0.16rem;
-            font-family: PingFangSC-Regular;
+            font-family: PingFang SC;
             font-weight: bold;
             color: rgba(238, 248, 255, 1);
             margin-top: 0.12rem;
@@ -1360,7 +1360,7 @@ export default {
 
           &-item {
             font-size: 0.16rem;
-            font-family: PingFangSC-Regular;
+            font-family: PingFang SC;
             font-weight: bold;
             color: rgba(41, 83, 176, 1);
             padding: 0.11rem 0.06rem;
@@ -1399,7 +1399,7 @@ export default {
 
           &-title {
             font-size: 0.14rem;
-            font-family: PingFangSC-Regular;
+            font-family: PingFang SC;
             font-weight: bold;
             color: rgba(255, 255, 255, 0.4);
             margin-top: 0.05rem;
@@ -1499,7 +1499,7 @@ export default {
               no-repeat;
             background-size: 100% 100%;
             font-size: 0.2rem;
-            font-family: PingFangSC-Regular;
+            font-family: PingFang SC;
             font-weight: bold;
             color: rgba(238, 248, 255, 1);
             line-height: 0.42rem;
@@ -1509,7 +1509,7 @@ export default {
 
           > p {
             font-size: 0.16rem;
-            font-family: PingFangSC-Regular;
+            font-family: PingFang SC;
             font-weight: bold;
             color: rgba(238, 248, 255, 1);
             margin-top: 0.12rem;

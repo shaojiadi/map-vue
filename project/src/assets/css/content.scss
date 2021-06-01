@@ -1,0 +1,93 @@
+@import "~@/assets/css/mixin";
+
+
+.table-wrap {
+  height: 4rem;
+  background: transparent;
+  margin: .2rem 0;
+  width: 100%;
+  overflow: auto;
+}
+
+// .el-table__row {
+//   background-color: transparent;
+// }
+
+
+
+
+.g-contain {
+  width: 100%;
+  height: 100%;
+  padding-top: 0.26rem;
+  background: url("../../../static/lanwan/yuanqu_0001_bg.png") no-repeat;
+  background-size: 100% 100%;
+}
+
+.p-show {
+  font-size: 0.14rem;
+  font-family: PingFang SC;
+  font-weight: 600;
+  color: rgba(79, 233, 254, 1);
+
+}
+
+
+.pop-wrap {
+  @include centerfix();
+  // @include wh(100%, 100%);
+  // background-color: rgba(8, 14, 38, 0.8);
+  z-index: 20;
+
+  .box4 {
+    position: absolute;
+    @include wh(10.47rem, 8.8rem);
+    background-image: url("../../../static/lanwan/enterBg.png");
+    // background-color: rgba(18, 23, 31, 0.7);
+    background-repeat: no-repeat;
+    left: 50%;
+    top: 50%;
+    transform: translate(-60%, -50%);
+    padding: 0.6rem;
+  }
+}
+
+
+
+.garden-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  color: white;
+  margin-bottom: 0.2rem;
+
+  .img-container {
+    width: 0.68rem;
+    height: 0.68rem;
+
+    .garden-img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+  }
+
+  .title-container {
+    padding-left: 0.1rem;
+    max-height: 1.06rem;
+    overflow: hidden;
+
+    .name {}
+
+    .company-info {
+      margin-top: 0.2rem;
+      width: 1.36rem;
+      height: 0.24rem;
+      color: rgba(175, 224, 244, 1);
+      background: rgba(33, 65, 80, 0.8);
+      border-radius: 0.1rem;
+      text-align: center;
+    }
+  }
+}

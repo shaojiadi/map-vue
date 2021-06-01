@@ -536,7 +536,7 @@ export default {
               no-repeat;
             background-size: 100% 100%;
             font-size: 0.2rem;
-            font-family: PingFangSC-Regular;
+            font-family: PingFang SC;
             font-weight: bold;
             color: rgba(238, 248, 255, 1);
             line-height: 0.42rem;
@@ -546,7 +546,7 @@ export default {
 
           > p {
             font-size: 0.16rem;
-            font-family: PingFangSC-Regular;
+            font-family: PingFang SC;
             font-weight: bold;
             color: rgba(238, 248, 255, 1);
             /*margin-top: 0.12rem;*/

@@ -68,7 +68,7 @@
     .g-pname{
       text-align: center;
       font-size:.12rem;
-      font-family:PingFangSC-Regular;
+      font-family:PingFang SC;
       font-weight:400;
       color:rgba(255,255,255,1);
       opacity:0.8;
@@ -86,7 +86,7 @@
       align-items: center;
       .g-pnums{
         font-size:.12rem;
-        font-family:PingFangSC-Regular;
+        font-family:PingFang SC;
         font-weight:400;
         color:rgba(255,255,255,0.8);
         span{

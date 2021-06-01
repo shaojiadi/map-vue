@@ -28,7 +28,12 @@ const state = {
 
     videoUrl:'rtmp://47.97.107.52:1940/live/qdgx31',
     warnList:[],
-	activeIndex: -1
+	activeIndex: -1,
+	isShowValue: 0,
+	isShowjk: false,
+	guanLangValue: 0,
+
+	saceShow:false,//调取监控弹窗
 }
 export default new Vuex.Store({
 	state,
